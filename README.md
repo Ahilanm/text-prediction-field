@@ -23,7 +23,7 @@ Then you need to add the css and js file in your blade file
 
 `<script type="text/javascript" src="{{asset('vendor/aipredict/aipredict.js')}}"></script>`
 
-#Usage
+# Usage
 
 Finally, just use the below directive in your blade file to display the field
 
@@ -31,7 +31,7 @@ Finally, just use the below directive in your blade file to display the field
 
 This will display the textarea field. Where you can able to get data.
 
-#Note
+# Note
 
 In .env file you must need to add the url of the server containing the AI model file.
 
