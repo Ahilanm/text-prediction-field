@@ -23,6 +23,11 @@ Then you need to add the css and js file in your blade file
 
 `<script type="text/javascript" src="{{asset('vendor/aipredict/aipredict.js')}}"></script>`
 
+Finally just run the config cache and view clear commands
+
+`php artisan config:cache`
+`php artisan view:clear`
+
 # Usage
 
 Finally, just use the below directive in your blade file to display the field
