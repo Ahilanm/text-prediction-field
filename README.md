@@ -30,7 +30,7 @@ Finally just run the config cache and view clear commands
 
 # Usage
 
-Finally, just use the below directive in your blade file to display the field
+To use add the below directive in your blade file to display the field
 
 `@aipredict`
 
