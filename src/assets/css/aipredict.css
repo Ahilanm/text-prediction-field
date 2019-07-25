@@ -1,0 +1,25 @@
+#textareaDiv
+{
+    border: none !important;
+    border-bottom-width: medium;
+    border-bottom-style: none;
+    border-bottom-color: currentcolor;
+    background: #fff !important;
+    box-shadow: none !important;
+    color: #000 !important;
+    border-bottom: 2px solid #c0cfdb !important;
+    border-radius: 0px;
+    padding: 0px !important;
+    font-size: 14px !important;
+    line-height: 1.6em;
+    height: auto;
+    direction: ltr;
+    min-height: 50px;
+    text-align: left;
+}
+
+#textareaDiv:empty:not(:focus):before
+{
+    content: attr(data-placeholder);
+    opacity: 0.5;
+}
