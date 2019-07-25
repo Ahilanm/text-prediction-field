@@ -28,7 +28,7 @@ $(document).on('keyup','#textareaDiv', function(e) {
         a = a.substr(a.length - 4);
     }
     if(switchFlag == 1){
-        var temp_case_url = "https://tensorflow.qatouch.com/c_predict";
+        var temp_case_url = "{{ env('PREDICTION_URL') }}";
         if(xhr && xhr.readyState != 4){
             xhr.abort();
         }
