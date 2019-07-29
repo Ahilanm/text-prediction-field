@@ -126,7 +126,7 @@ $(document).mouseup(function(e){
         $("#textareaDiv .textarea_case_span").remove();
     }
 });
-/* Function to place cursor at end of sentence after tab */
+/* Function to check the cursor position */
 function getCaretPosition() {
     if (window.getSelection && window.getSelection().getRangeAt) {
         var range = window.getSelection().getRangeAt(0);
